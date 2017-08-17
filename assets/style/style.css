@@ -1,0 +1,264 @@
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                               /* обнуляем отступы и убираем бордюры */
+	vertical-align: baseline;          /* приводим все к одной базовой линии */
+	background: transparent;      /* чтобы не проскакивали левые фоны, установленные по умолчанию */
+	font-size: 100%;                     /* размер шрифта всем одинаковый */
+}
+a {                                      	     /* ссылка не в общем списке чтобы не сбрасывать outline по умолчанию */
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	outline:none;
+}
+table {						/* устраняем отступы между ячейками таблицы */
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+td, td img {
+	vertical-align: top;			/* возвращаем привычное вертикальное выравнивание */
+} 
+input, select, button, textarea {
+	margin: 0; 				/* убираем отступы по умолчанию для элементов форм (в частности для checkbox и radio) */
+	font-size: 100%; 			/* делаем размер шрифтов везде одинаковым */
+	outline: none;
+}
+input[type="text"], input[type="password"], textarea {
+	padding: 0; 				/* убираем внутренние отступы для текстовых полей */
+}
+input[type="checkbox"] { 		/* вертикальное выравнивание чекбоксов и радиобатонов относительно меток */
+	vertical-align: bottom;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	 list-style:none;
+}
+ul {
+	 list-style:none;
+}
+* {
+    box-sizing: border-box;
+}
+/* --------------- /reset.css --------------- */
+
+/* --------------- базовые настройки ---------*/
+html {
+	min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
+}
+body {
+	font-family: "Arial", sans-serif;
+    position: relative;
+    color: #554f4f;
+}
+a, a:visited { /* порядок правил для ссылок имеет значение */
+	color: #5e9ee3;
+	text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+	color: #000;
+	text-decoration:none;
+    cursor: pointer;
+}
+a:focus, a:active {
+	color: #5e9ee3;
+	text-decoration: none;
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+img{
+	max-width:100%;
+}
+.clr{
+	clear:both;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/* --------------- /базовые настройки ---------*/
+header,section, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header {
+    background-color: #bdbace;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.left-collumn, .right-collumn {
+   padding: 20px; 
+    padding-top: 80px;
+}
+.right-collumn {
+    width: 25%;
+    background-color: #e7e5e4;
+    
+}
+.left-collumn {
+    max-width:  75%;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 20px 30px;
+    padding-top: 80px;
+}
+.logotype {
+    margin: 10px 10px 10px 40px;
+}
+
+h1 {
+    color: darkslategray;
+    font-size: 2.9em;
+    font-weight: 400;
+    width: 85%
+}
+nav {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+}
+
+nav:hover .nav {
+    display: block;
+}
+.menu li {
+    display: inline;
+    margin-right: 10px;
+}
+.menu a{
+    width: 50px;
+    color: darkblue;;
+    font-size: 0.9em;
+}
+.menu li ul {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    
+}
+.menu li:hover ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.socicon {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+.social {
+    width: 30px;
+    height: 30px;
+    fill: darkslategray;
+}
+.socicon a:hover .social-fb{
+    fill: #3b5998;
+}
+.socicon a:hover .social-tw{
+    fill: #55acee;
+}
+.socicon a:hover .social-g{
+    fill: #dd4b39;
+}
+.socicon a:hover .social-you{
+    fill: #cd201f;
+}
+.right-collumn h3 {
+    color: darkslateblue
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.right-collumn li {
+    margin-bottom: 10px;
+    background-color: azure;
+     box-shadow: 0 1px 4px rgba(0, 0, 0, .2),
+   -23px 0 20px -23px rgba(0, 0, 0, .4),
+   23px 0 20px -23px rgba(0, 0, 0, .4),
+   0 0 40px rgba(0, 0, 0, .1) inset;
+    text-align: center;
+   
+}
+.right-collumn li:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .2),
+   -23px 0 20px -23px rgba(0, 0, 0, .4),
+   23px 0 20px -23px rgba(0, 0, 0, .4),
+   0 0 40px rgba(0, 0, 0, .1) ;
+}
+.right-collumn p {
+    font-size: 0.7em;
+    color: darkgray;
+    padding: 10px;
+    text-align: left;
+}
+.left-collumn h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+.left-collumn img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.data {
+    font-size: 0.55em;
+    color: gray;
+     font-weight: normal;
+}
+.left-collumn p {
+    padding: 15px;
+}
+footer {
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 0.8em;
+    padding: 10px 20px;
+}
+.gotovo {
+    font-size: 0.8em;
+    line-height: normal;
+    width: 300px;
+    background-color: #fff7ef;
+    padding: 15px;
+    border: 1px solid #e9e5e5;
+}
+.gotovo h5 {
+    font-size: 1em;
+    font-weight: bold;
+}
+.gotovo p {
+    padding: 0;
+}
+.gotovo img {
+    margin: 15px 0;
+}
+

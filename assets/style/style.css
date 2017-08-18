@@ -117,12 +117,14 @@ header {
     width:  300px;
     background-color: #e7e5e4;
     margin-left: 30px;
+    padding-right: 50px;
 }
 .left-collumn {
     font-size: 1.1em;
     line-height: 1.5;
     text-align: justify;
     padding: 20px 0 20px 30px;
+    width: 70%;
     
 }
 .logotype {
@@ -154,10 +156,15 @@ nav {
 }
 .menu a{
     color: #fffcbc;
-    font-size: 0.9em;
+    font-size: 12px;
     display: block;
-    padding: 0 10px;
+    padding: 0 15px;
     cursor: pointer;
+    transition: 1s all;
+}
+.menu a:hover {
+    color: darkslategray;
+    font-size: 13px;
 }
 .dropdown {
     display: none;
@@ -172,12 +179,15 @@ nav {
 .menu li:hover .dropdown{
     display: flex;
     flex-direction: column;
+    border: 1px solid #e9e5e5;
+    border-top: 0;
 }
 .dropdown li {
      width: 200px;
 }
 .dropdown a{
     padding: 5px 10px; 
+    font-size: 0.7em;
 }
 .socicon {
    padding-top: 30px
@@ -270,3 +280,22 @@ footer {
     margin: 15px 0;
 }
 
+
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.4;
+    filter: alpha(opacity=40);
+    position:fixed;
+    bottom:20px;
+    right:5px;
+    /*display: none;*/
+    text-indent:-9999px;
+    background: url("icon_top.png") no-repeat;
+    background-size: cover;
+    z-index: 1001;
+}
+.scrollup:hover{
+    opacity:0.7;
+    filter: alpha(opacity=70);
+}

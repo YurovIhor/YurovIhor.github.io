@@ -129,7 +129,12 @@ header {
     text-align: justify;
     padding: 20px 0 20px 30px;
     width: 70%;
-    
+}
+.right-collumn h4 {
+    font-size: 0.8em;
+    color: darkslategray;
+    padding: 5px 10px;
+    text-align: justify;
 }
 .logotype {
     padding-top: 15px;
@@ -216,7 +221,6 @@ nav {
     fill: #cd201f;
 }
 .right-collumn h3 {
-    color: darkslateblue
     font-size: 1em;
     font-weight: bold;
     padding: 10px 0;
@@ -228,14 +232,13 @@ nav {
    -23px 0 20px -23px rgba(0, 0, 0, .4),
    23px 0 20px -23px rgba(0, 0, 0, .4),
    0 0 40px rgba(0, 0, 0, .1) inset;
-    text-align: center;
-   
+    
 }
 .right-collumn li:hover {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .2),
-   -23px 0 20px -23px rgba(0, 0, 0, .4),
-   23px 0 20px -23px rgba(0, 0, 0, .4),
-   0 0 40px rgba(0, 0, 0, .1) ;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .4),
+   -23px 0 20px -23px rgba(0, 0, 0, .6),
+   23px 0 20px -23px rgba(0, 0, 0, .6),
+   0 0 40px rgba(0, 0, 0, .2) ;
 }
 .right-collumn p {
     font-size: 0.7em;

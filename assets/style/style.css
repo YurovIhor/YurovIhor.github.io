@@ -97,7 +97,7 @@ img{
     display: table;
 }
 /* --------------- /базовые настройки ---------*/
-header,section{
+header,section, .post_container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -263,6 +263,10 @@ nav {
 .left-collumn p {
     padding: 15px;
 }
+.post_container{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 footer {
     min-height: 60px;
     background-color: black;
@@ -273,10 +277,11 @@ footer {
 .post {
     font-size: 0.8em;
     line-height: normal;
-    max-width: 300px;
+     width: 300px;
     background-color: #fff7ef;
     padding: 15px;
     border: 1px solid #e9e5e5;
+    margin: 10px 10px;
 }
 .post h5 {
     font-size: 1em;
@@ -288,6 +293,7 @@ footer {
 .post img {
     margin: 15px 0;
 }
+
 
 
 .scrollup{

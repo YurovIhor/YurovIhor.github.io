@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6{
 	font-weight:normal;
 }
 img{
-	max-width:100%;
+	width:100%;
 }
 .clr{
 	clear:both;
@@ -118,7 +118,7 @@ header {
     
 }
 .right-collumn {
-    width:  300px;
+    width:  25%;
     background-color: #e7e5e4;
     padding-right: 50px;
 }
@@ -127,7 +127,7 @@ header {
     line-height: 1.5;
     text-align: justify;
     padding: 20px;
-    width: 70%;
+    width: 75%;
 }
 .right-collumn h4 {
     font-size: 0.8em;

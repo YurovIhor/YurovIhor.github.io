@@ -270,7 +270,7 @@ footer {
     font-size: 0.6em;
     padding: 10px 40px;
 }
-.gotovo {
+.post {
     font-size: 0.8em;
     line-height: normal;
     max-width: 300px;
@@ -278,14 +278,14 @@ footer {
     padding: 15px;
     border: 1px solid #e9e5e5;
 }
-.gotovo h5 {
+.post h5 {
     font-size: 1em;
     font-weight: bold;
 }
-.gotovo p {
+.post p {
     padding: 0;
 }
-.gotovo img {
+.post img {
     margin: 15px 0;
 }
 

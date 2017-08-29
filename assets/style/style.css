@@ -108,7 +108,7 @@ footer {
     flex-direction: column;
 }
 header {
-    background-color: #bdbace;
+    background-color: #f9c333;
     width: 100%;
     position: relative;
     padding: 0 30px;
@@ -146,7 +146,7 @@ header .name {
     margin-right: 15px;
 }
 h1 {
-     color: darkslategray;
+     color: white;
     font-weight: 400;   
 }
 header h1 {

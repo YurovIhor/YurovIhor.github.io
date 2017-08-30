@@ -99,13 +99,19 @@ img{
 /* --------------- /базовые настройки ---------*/
 header,section, .post_container{
     display: flex;
+    display: -webkit-flex; 
+    -webkit-flex-direction: row;
     flex-direction: row;
+     -webkit-justify-content: space-between;
     justify-content: space-between;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 footer {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
 }
 header {
     background-color: #f9c333;
@@ -116,8 +122,11 @@ header {
 .left-collumn, .right-collumn {
    padding: 20px; 
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
     align-items: flex-start;
+    -webkit-align-items: flex-start;
 }
 .right-collumn {
     width:  25%;
@@ -158,8 +167,12 @@ nav {
 }
 .menu {
     display: flex;
+    display: -webkit-flex;
     flex-direction: row;
+    -webkit-flex-direction: row;
     justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .menu li {
@@ -189,7 +202,9 @@ nav {
 }
 .menu li:hover .dropdown{
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
     border: 1px solid #e9e5e5;
     border-top: 0;
 }
@@ -264,8 +279,8 @@ nav {
     padding: 15px;
 }
 .post_container{
-    justify-content: space-around;
-    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -webkit-flex-wrap: wrap;
 }
 footer {
     min-height: 60px;
@@ -336,11 +351,14 @@ footer h1 {
 }
 .footer-wrap, .logotype-footer  {
     display: flex;
+    display: -webkit-flex;
     flex-direction: row;
+    -webkit-flex-direction: row;
     justify-content: center;
+    -webkit-justify-content: center;
 }
 .footer-wrap {
-    justify-content: space-between;
+    -webkit-justify-content: space-between;
 }
 @media screen and (max-width: 950px) {
     .right-collumn {

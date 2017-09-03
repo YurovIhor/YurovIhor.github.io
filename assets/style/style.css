@@ -244,7 +244,7 @@ h1 {
 }
 .dropdown a{
     width: 100%;
-    font-size: 0.9em;
+    font-size: 15px;
     padding: 5px 10px;
     height: auto;
 }
@@ -393,19 +393,30 @@ footer h1 {
     color: #d62e2e;
     font-size: 1.6em;
 }
-.ln-wrap, .footer_wrap {
+.ln-wrap, .footer_wrap, .connect {
     display: flex;
     display: -webkit-flex;
     flex-direction: row;
     -webkit-flex-direction: row;
     justify-content: center;
     -webkit-justify-content: center;
+     -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .footer_wrap {
      justify-content: space-between;
     -webkit-justify-content: space-between;
 }
+.email {
+    margin-left: 50px;
 }
+.img-svg {
+    padding-top: 5px;
+} 
+.connect {
+    margin: 30px 0;
+}
+
 @media screen and (max-width: 950px) {
     .right-collumn {
     width: 300px;

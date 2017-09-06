@@ -428,14 +428,15 @@ footer h1 {
 
 
 @media screen and (max-width: 950px) {
-    .right-collumn {
-    width: 300px;
     
-}
 .left-collumn {
     
     width: 100%;
 }
+    .right-collumn {
+    
+   width: 300px;
+}   
 }
 @media screen and (max-width: 820px) {
     

@@ -67,7 +67,7 @@ body {
 	font-family: "Arial", sans-serif;
     color: #554f4f;
     background-color: #fff;
-    
+    font-size: 16px;
 }
 a, a:visited { /* порядок правил для ссылок имеет значение */
 	color: #5e9ee3;
@@ -141,7 +141,7 @@ header {
     border-top: 5px solid #fe9a00;
 }
 
-.left-collumn, .right-collumn {
+.left-collumn, .right-collumn, .connect-block {
    padding: 30px; 
     display: flex;
     display: -webkit-flex;
@@ -268,13 +268,16 @@ h1 {
     height: 30px;
     fill: #534f41;
 }
-.socicon a:hover .social-fb{
+.img-svg {
+    width: 40px;
+}
+.socicon a:hover .social-fb, .img-svg .social-fb{
     fill: #3b5998;
 }
-.socicon a:hover .social-tw{
+.socicon a:hover .social-tw, .img-svg .social-tw{
     fill: #55acee;
 }
-.socicon a:hover .social-g{
+.socicon a:hover .social-g, .img-svg .social-g{
     fill: #dd4b39;
 }
 .socicon a:hover .social-you{
@@ -393,6 +396,9 @@ footer h1 {
     color: #d62e2e;
     font-size: 1.6em;
 }
+.connect .social {
+    fill:#fe9a00;
+}
 .ln-wrap, .footer_wrap, .connect {
     display: flex;
     display: -webkit-flex;
@@ -408,15 +414,19 @@ footer h1 {
     -webkit-justify-content: space-between;
 }
 .email {
-    margin-left: 50px;
-}
-.img-svg {
+    margin-left: 100px;
     padding-top: 5px;
-} 
-.connect {
+}
+ 
+.connect-block {
     margin: 30px 0;
+    padding: 0;
+}
+.connect {
+    padding-bottom: 10px;
 }
 
+.connect-block
 @media screen and (max-width: 950px) {
     .right-collumn {
     width: 300px;

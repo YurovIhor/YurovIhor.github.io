@@ -126,7 +126,7 @@ header {
 }
 .wrap {
     background-color: #f9c333;
-    padding: 0 30px;
+    padding: 0 20px;
     height: 50px;
 }
 .wrap_top {
@@ -136,13 +136,13 @@ header {
     
 }
 .wrap_middle {
-     padding: 10px 30px;
+     padding: 10px 20px;
     border-bottom: 5px solid #fe9a00;
     border-top: 5px solid #fe9a00;
 }
 
 .left-collumn, .right-collumn, .connect-block {
-   padding: 30px; 
+   padding: 20px; 
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -193,6 +193,7 @@ h1 {
 }
 .menu li {
     position: relative;
+    display: inline;
 }
 
 .menu li:hover {
@@ -346,7 +347,7 @@ footer {
     background-color: #fff7ef;
     padding: 15px;
     border: 1px solid #e9e5e5;
-    margin: 10px;
+    margin: 5px;
 }
 .post h5 {
     font-size: 1em;
@@ -456,8 +457,17 @@ footer h1 {
     
 }
 @media screen and (max-width: 320px) {
- 
-}   
+ .menu a{
+    
+    font-size: 12px;
+    font-weight: 600; 
+    display: block;
+    padding: 20px 10px 0;
+    cursor: pointer;
+    transition: 1s all;
+    height: 50px;
 }
+}   
+
 
 

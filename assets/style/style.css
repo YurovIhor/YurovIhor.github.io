@@ -288,7 +288,8 @@ h1 {
     font-weight: bold;
     padding: 10px 0;
 }
-.right-collumn li {
+.lastpost {
+    padding: 15px;
     margin-bottom: 10px;
     background-color: azure;
      box-shadow: 0 1px 4px rgba(0, 0, 0, .2),
@@ -297,13 +298,13 @@ h1 {
    0 0 40px rgba(0, 0, 0, .1) inset;
     
 }
-.right-collumn li:hover {
+.lastpost:hover {
     box-shadow: 0 1px 4px rgba(0, 0, 0, .4),
    -23px 0 20px -23px rgba(0, 0, 0, .6),
    23px 0 20px -23px rgba(0, 0, 0, .6),
    0 0 40px rgba(0, 0, 0, .2) ;
 }
-.right-collumn p {
+.lastpost p {
     font-size: 0.7em;
     color: darkgray;
     padding: 10px;
@@ -434,17 +435,27 @@ footer h1 {
     width: 100%;
 }
     .right-collumn {
-    
-   width: 300px;
+   border-top: 5px solid #fe9a00;
+        border-left: 0;
+   width: 100%;
+      flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;  
 }   
+    .coll {
+        width: 300px;
+        margin-right: 5px;
+    }   
+    
 }
 @media screen and (max-width: 820px) {
     
 }
 @media screen and (max-width: 320px) {
- .right-collumn {
-    
-    width: 100%;
+ 
 }   
 }
 

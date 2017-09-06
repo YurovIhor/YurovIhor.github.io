@@ -330,6 +330,7 @@ h1 {
 .post_container{
     -webkit-justify-content: space-around;
     -webkit-flex-wrap: wrap;
+    width: 100%;
 }
 footer {
     min-height: 60px;
@@ -345,7 +346,7 @@ footer {
     background-color: #fff7ef;
     padding: 15px;
     border: 1px solid #e9e5e5;
-    margin: 10px 10px;
+    margin: 10px;
 }
 .post h5 {
     font-size: 1em;

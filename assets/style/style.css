@@ -342,7 +342,7 @@ footer {
 .post {
     font-size: 0.8em;
     line-height: normal;
-     width: 300px;
+     max-width: 300px;
     background-color: #fff7ef;
     padding: 15px;
     border: 1px solid #e9e5e5;
@@ -447,7 +447,7 @@ footer h1 {
     flex-wrap: wrap;  
 }   
     .coll {
-        width: 300px;
+        max-width: 300px;
         margin-right: 5px;
     }   
     

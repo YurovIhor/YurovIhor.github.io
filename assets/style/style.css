@@ -418,7 +418,7 @@ footer h1 {
 }
 .email {
     margin-left: 100px;
-    padding-top: 5px;
+    padding-top: 3px;
 }
  
 .connect-block {
@@ -456,17 +456,35 @@ footer h1 {
 @media screen and (max-width: 820px) {
     
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
  .menu a{
-    
     font-size: 14px;
-    font-weight: 600; 
-    display: block;
-    padding: 20px 10px 0;
-    cursor: pointer;
-    transition: 1s all;
-    height: 50px;
 }
+    .email {
+    margin-left: 10px;
+}
+    .dropdown li {
+     width: 200px; 
+}
+.dropdown a{
+    font-size: 13px;
+}
+    
+}   
+@media screen and (max-width: 330px) {
+ .menu a{
+    font-size: 12px;
+}
+    .email {
+    margin-left: 5px;
+}
+    .dropdown li {
+     width: 150px; 
+}
+.dropdown a{
+    font-size: 11px;
+}
+    
 }   
 
 

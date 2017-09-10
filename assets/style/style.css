@@ -70,17 +70,17 @@ body {
     font-size: 16px;
 }
 a, a:visited { /* порядок правил для ссылок имеет значение */
-	color: #5e9ee3;
+	color: inherit;
 	text-decoration: none;
     cursor: pointer;
 }
 a:hover {
-	color: #000;
+	color: #fe9a00;
 	text-decoration:none;
     cursor: pointer;
 }
 a:focus, a:active {
-	color: #5e9ee3;
+	color: inherit;
 	text-decoration: none;
     cursor: pointer;
 }
@@ -473,16 +473,16 @@ footer h1 {
 }   
 @media screen and (max-width: 330px) {
  .menu a{
-    font-size: 12px;
+    font-size: 13px;
 }
     .email {
     margin-left: 5px;
 }
     .dropdown li {
-     width: 150px; 
+     width: 180px; 
 }
 .dropdown a{
-    font-size: 11px;
+    font-size: 12px;
 }
     
 }   

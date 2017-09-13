@@ -139,6 +139,39 @@ header {
      padding: 10px 20px;
     border-bottom: 5px solid #fe9a00;
     border-top: 5px solid #fe9a00;
+    width: 100%;
+    position: relative;
+}
+.l-wrap {
+    position: relative;
+}
+.l-wrap:hover {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.train {
+    width: 75%;
+    position: relative;
+    
+}
+.train img {
+    animation: slidein 15s forwards 3s;
+   max-width: 350px;
+   position: relative;
+    bottom: 0;
+    left: 68%;
+}
+@keyframes slidein {
+    from {
+        bottom:0;
+        left: 68%;
+        
+    }
+    to {
+        bottom: 0;
+        left: 10px;
+    }
 }
 
 .left-collumn, .right-collumn, .connect-block {

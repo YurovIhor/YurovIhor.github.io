@@ -99,7 +99,7 @@ img#fancy_img {
 	margin: 0;
 	z-index: 100;
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 div#fancy_close {

@@ -547,7 +547,8 @@ footer h1 {
     font-size: 14px;
     z-index: 20;
     margin: 0;
-    width: 85%;
+    width: 70%;
+    
     min-width: 320px;
     max-width: 100%;
     
@@ -632,7 +633,7 @@ footer h1 {
 }
 /* изображения внутри окна */
 .popup img {
-    
+   
     margin: 0;
 }
 

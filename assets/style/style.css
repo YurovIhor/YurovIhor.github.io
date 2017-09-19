@@ -350,7 +350,7 @@ h1 {
 .left-collumn img {
     margin-top: 30px;
     margin-bottom: 30px;
-    max-width: 100%;
+    width: inherit;
 }
 .data {
     font-size: 0.55em;

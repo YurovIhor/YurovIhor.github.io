@@ -110,7 +110,7 @@ section, .post_container, .wrap, .wrap_top, .wrap_middle{
     flex-wrap: wrap;
 }
 
-header, footer {
+header, footer, .connect-block {
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -174,20 +174,18 @@ header {
     }
 }
 
-.left-collumn, .right-collumn, .connect-block {
+ .connect-block {
    padding: 20px; 
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    align-items: flex-start;
-    -webkit-align-items: flex-start;
+      
+    
 }
 .right-collumn {
+    padding: 20px; 
     width:  25%;
     border-left: 5px solid #fe9a00;  
 }
 .left-collumn {
+     padding: 20px; 
     font-size: 1.1em;
     line-height: 1.5;
     text-align: justify;
@@ -263,7 +261,7 @@ h1 {
     flex-direction: column;
     -webkit-flex-direction: column;
     border: 1px solid #e9e5e5;
-    
+    border-bottom: none;
     border-top: 5px solid #fe9a00;
     
 }
@@ -272,11 +270,11 @@ h1 {
 }
 .dropdown li {
      width: 300px; 
-/*    border-bottom: 1px solid #e9e5e5;*/
+    border-bottom: 1px solid #e9e5e5;
 }
 .dropdown a{
     width: 100%;
-    font-size: 15px;
+    font-size: 14px;
     padding: 5px 10px;
     height: auto;
 }
@@ -302,6 +300,7 @@ h1 {
 }
 .img-svg {
     width: 40px;
+    float: left;
 }
 .socicon a:hover .social-fb, .img-svg .social-fb{
     fill: #3b5998;
@@ -322,9 +321,10 @@ h1 {
 }
 .coll {
     width: 100%;
+    margin: 0;
 }
 .lastpost {
-    width: 100%;
+    
     padding: 15px;
     margin-bottom: 10px;
     background-color: azure;
@@ -353,7 +353,6 @@ h1 {
 }
 .left-collumn img {
     margin: 30px 0;
-    
 }
 .data {
     font-size: 0.55em;
@@ -362,11 +361,12 @@ h1 {
 }
 .left-collumn p {
     padding: 15px;
-    max-width: 100%;
 }
 .post_container{
+    justify-content: space-around;
     -webkit-justify-content: space-around;
     -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;  
     width: 100%;
 }
 footer {
@@ -445,7 +445,7 @@ footer h1 {
 .connect .social {
     fill:#fe9a00;
 }
-.ln-wrap, .footer_wrap, .connect {
+.ln-wrap, .footer_wrap {
     display: flex;
     display: -webkit-flex;
     flex-direction: row;
@@ -467,6 +467,8 @@ footer h1 {
 .connect-block {
     margin: 30px 0;
     padding: 0;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
 }
 .connect {
     padding-bottom: 10px;
@@ -482,6 +484,8 @@ footer h1 {
    border-top: 5px solid #fe9a00;
         border-left: 0;
    width: 100%;
+        display: flex;
+    display: -webkit-flex;
       flex-direction: row;
     -webkit-flex-direction: row;
     justify-content: space-around;

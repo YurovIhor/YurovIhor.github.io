@@ -212,14 +212,7 @@ h1 {
     font-family: 'Courgette', cursive;
 }
 .menu {
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+    
 }
 .menu li {
     position: relative;
@@ -242,8 +235,6 @@ h1 {
 }
 .menu a:hover {
     color: #fff;
-    
-
 }
 .dropdown {
     display: none;
@@ -257,10 +248,7 @@ h1 {
     border-bottom: 1px solid #e9e5e5;
 }
 .menu li:hover .dropdown{
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
+    display: block;
     border: 1px solid #e9e5e5;
     border-bottom: none;
     border-top: 5px solid #fe9a00;
@@ -293,6 +281,7 @@ h1 {
 }
 .socicon {
    padding: 0;
+    
 }
 .social {
     width: 30px;
@@ -446,6 +435,9 @@ footer h1 {
 .connect .social {
     fill:#fe9a00;
 }
+/*footer .ln-wrap, footer .socicon {*/
+/*    margin: 5px 0;*/
+/*}*/
 .ln-wrap, .footer_wrap {
     display: flex;
     display: -webkit-flex;

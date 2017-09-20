@@ -141,6 +141,7 @@ header {
     border-top: 5px solid #fe9a00;
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 .l-wrap {
     position: relative;

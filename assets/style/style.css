@@ -223,7 +223,7 @@ h1 {
 }
 .menu li {
     position: relative;
-    display: inline;
+    display: inline-block;
 }
 
 .menu li:hover {

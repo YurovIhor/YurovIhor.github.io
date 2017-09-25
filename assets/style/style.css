@@ -110,6 +110,31 @@ section, .post_container, .wrap, .wrap_top, .wrap_middle{
     flex-wrap: wrap;
 }
 
+.smile {
+    position: relative;
+}
+.smile:before {
+    content: "";
+    display: inline-block;
+    font-size: 30px;
+    width: 25px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+}
+.smile:after{
+    content: "\263B";
+    display: inline-block;
+    font-size: 30px;
+    color: #f9c333;
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -15px;
+    left: 0;
+}
+
 header, footer, .connect-block {
     display: flex;
     display: -webkit-flex;

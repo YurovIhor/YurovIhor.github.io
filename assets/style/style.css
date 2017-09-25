@@ -161,7 +161,7 @@ header {
    max-width: 350px;
    position: relative;
     bottom: 0;
-    left: 68%;
+    left: 60%;
 }
 @keyframes slidein {
     from {
@@ -171,7 +171,7 @@ header {
     }
     to {
         bottom: 0;
-        left: 10px;
+        left: 50px;
     }
 }
 
@@ -179,6 +179,19 @@ header {
    padding: 20px; 
       
     
+}
+.butl {
+    width: 100px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.glass {
+    width: 100px;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    z-index: 999;
 }
 .right-collumn {
     padding: 20px; 

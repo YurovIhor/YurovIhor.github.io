@@ -221,10 +221,10 @@ header {
 .right-collumn {
     padding: 20px; 
     width:  25%;
-    border-left: 5px solid #fe9a00;  
+    
 }
 .left-collumn {
-     padding: 20px; 
+     padding: 20px 0 20px 20px; 
     font-size: 1.1em;
     line-height: 1.5;
     text-align: justify;
@@ -356,18 +356,18 @@ h1 {
     
     padding: 15px;
     margin-bottom: 10px;
-    background-color: azure;
-     box-shadow: 0 1px 4px rgba(0, 0, 0, .2),
+    
+     box-shadow: 0 1px 3px rgba(0, 0, 0, .2),
    -23px 0 20px -23px rgba(0, 0, 0, .4),
    23px 0 20px -23px rgba(0, 0, 0, .4),
-   0 0 40px rgba(0, 0, 0, .1) inset;
+   0 0 20px rgba(0, 0, 0, .1) inset;
     
 }
 .lastpost:hover {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .4),
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .4),
    -23px 0 20px -23px rgba(0, 0, 0, .6),
    23px 0 20px -23px rgba(0, 0, 0, .6),
-   0 0 40px rgba(0, 0, 0, .2) ;
+   0 0 20px rgba(0, 0, 0, .2) ;
 }
 .lastpost p {
     font-size: 0.7em;
@@ -423,10 +423,11 @@ footer {
 .post img {
     margin: 15px 0;
 }
-.post a {
+.click {
     color: #b5b1b1;
+    text-shadow:  1px 1px ;
 }
-.post a:hover{
+.click:hover{
     color: #fe9a00;
 }
 
@@ -514,8 +515,7 @@ footer h1 {
      width: 100%;
 }
     .right-collumn {
-   border-top: 5px solid #fe9a00;
-        border-left: 0;
+   
    width: 100%;
         display: flex;
     display: -webkit-flex;
@@ -550,13 +550,13 @@ footer h1 {
 .dropdown a{
     font-size: 13px;
 }
-    .left-collumn {
-    font-size: 0.8em;
+    
+.glass, .butl, .train {
+    display: none;
 }
-    .train img {
-    animation:none;
-   left: 20%;
-        
+    h1 {
+    font-size: 2.5em;
+    
 }
 }   
 @media screen and (max-width: 330px) {

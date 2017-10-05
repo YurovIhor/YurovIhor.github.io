@@ -16,6 +16,8 @@
     
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<script src="assets/js/jquery.lockfixed.min.js"></script>
   
 </head>
 
@@ -269,10 +271,10 @@
             
         </div>
         
-        
-        
+      
 <div class="coll">
-            <h3>Новости</h3>
+          <div id="sidebar">    
+<h3>Новости</h3>
             <div class="lastpost">
                 <a href="http://www.segodnya.ua/politics/pnews/v-ukraine-nachal-deystvovat-bezvizovyy-rezhim-s-es-1028881.html" target="_blank">
                     <img src="assets/images/new/81_main_new.1497129024.jpg" alt="Без виз">
@@ -284,7 +286,7 @@
                 <a href="http://www.segodnya.ua/ukraine/biometricheskie-pasporta-v-ukraine-ne-uspevayut-pechatat-1045542.html" target="_blank">
                     <img src="assets/images/new/42_main_new.1502189288.jpg" alt="Без виз"><h4>Биометрические паспорта в Украине не успевают печатать</h4>
                     <p>08.08.2017 «Сегодня.ua»</p></a>
-            </div>
+                </div></div>
     
 </div>
         
@@ -324,6 +326,10 @@
     
     
 </footer>
-    
+<script type="text/javascript"> 
+(function($) {
+	$.lockfixed("#sidebar",{offset: {top: 10, bottom: 10}});
+})(jQuery);	
+</script>    
 </body>
 <html>

@@ -233,9 +233,7 @@ h1 {
     font-size: 2.9em;
     font-family: 'Courgette', cursive;
 }
-nav {
-    text-align: center;
-}
+
 .menu li {
     position: relative;
     display: inline-block;
@@ -264,6 +262,7 @@ nav {
     top: 30px;
     left: 0;
     background-color: rgba(249, 195, 51, 0.9);
+    
     
 }
 .dropright {
@@ -294,8 +293,12 @@ nav {
     background-color: rgba(249, 195, 51, 0.9);
 }
 .dropdown li {
-     width: 300px; 
+     width: 150px; 
     border-bottom: 1px solid #e9e5e5;
+}
+.dropright li {
+     width: 300px; 
+   
 }
 .dropdown a{
     width: 100%;

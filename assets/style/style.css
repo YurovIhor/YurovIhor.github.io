@@ -151,17 +151,17 @@ header {
 }
 .wrap {
     background-color: #f9c333;
-    padding: 0 20px;
-    height: 50px;
+    padding: 0 30px;
+    height: 30px;
 }
 .wrap_top {
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
-    padding-top: 10px;
+    
     
 }
 .wrap_middle {
-     padding: 10px 20px;
+     padding: 10px 30px;
     border-bottom: 5px solid #fe9a00;
     border-top: 5px solid #fe9a00;
     width: 100%;
@@ -201,30 +201,14 @@ header {
 }
 
  .connect-block {
-   padding: 20px; 
-      
-    
-}
-.butl {
-    width: 100px;
-    position: absolute;
-    top: 60px;
-    left: 40px;
-}
-.glass {
-    width: 100px;
-    position: absolute;
-    top: 130px;
-    left: 10px;
-    z-index: 999;
+   padding: 20px;    
 }
 .right-collumn {
-    padding: 20px; 
+    padding: 20px 30px 20px 15px; 
     width:  25%;
-    
 }
 .left-collumn {
-     padding: 20px 0 20px 20px; 
+     padding: 20px 15px 20px 30px; 
     font-size: 1.1em;
     line-height: 1.5;
     text-align: justify;
@@ -249,8 +233,8 @@ h1 {
     font-size: 2.9em;
     font-family: 'Courgette', cursive;
 }
-.menu {
-    
+nav {
+    text-align: center;
 }
 .menu li {
     position: relative;
@@ -266,10 +250,10 @@ h1 {
     font-size: 16px;
     font-weight: 600; 
     display: block;
-    padding: 20px 15px 0;
+    padding: 6px 15px;
     cursor: pointer;
     transition: 1s all;
-    height: 50px;
+    height: 30px;
 }
 .menu a:hover {
     color: #fff;
@@ -277,13 +261,20 @@ h1 {
 .dropdown {
     display: none;
     position: absolute;
-    top: 50px;
+    top: 30px;
     left: 0;
     background-color: rgba(249, 195, 51, 0.9);
     
 }
+.dropright {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: rgba(249, 195, 51, 0.9);
+}
 .tr {
-    padding: 5px 15px;
+    padding: 2px 0 0 15px;
     border-bottom: 1px solid #e9e5e5;
 }
 .menu li:hover .dropdown{
@@ -292,6 +283,12 @@ h1 {
     border-bottom: none;
     border-top: 5px solid #fe9a00;
     
+}
+.dropdown li:hover .dropright {
+    display: block;
+    border: 1px solid #e9e5e5;
+    border-bottom: none;
+    margin-top: -1px;
 }
 .menu li:hover .tr {
     background-color: rgba(249, 195, 51, 0.9);
@@ -351,6 +348,7 @@ h1 {
 .coll {
     width: 100%;
     margin: 0;
+    position: relative;
 }
 .lastpost {
     
@@ -375,6 +373,7 @@ h1 {
     padding: 10px;
     text-align: left;
 }
+
 .left-collumn h2 {
     font-size: 1.5em;
     font-weight: bold;
@@ -403,7 +402,7 @@ footer {
     background-color: #29261e;
     color: #fff;
     font-size: 0.6em;
-    padding: 15px 40px;
+    padding: 15px 30px;
 }
 .post {
     font-size: 0.85em;
@@ -472,6 +471,9 @@ footer h1 {
     color: #d62e2e;
     font-size: 1.6em;
 }
+.copyright {
+    margin-top: 10px;
+}
 .connect .social {
     fill:#fe9a00;
 }
@@ -513,6 +515,7 @@ footer h1 {
     
 .left-collumn {
      width: 100%;
+    padding-right: 30px;
 }
     .right-collumn {
    
@@ -525,6 +528,7 @@ footer h1 {
     -webkit-justify-content: space-around;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;  
+        padding-left: 30px;
 }   
     .coll {
         max-width: 300px;
@@ -538,6 +542,7 @@ footer h1 {
 }
 }
 @media screen and (max-width: 400px) {
+    
  .menu a{
     font-size: 14px;
 }
@@ -551,7 +556,7 @@ footer h1 {
     font-size: 13px;
 }
     
-.glass, .butl, .train {
+.train {
     display: none;
 }
     h1 {

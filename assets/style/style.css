@@ -367,13 +367,31 @@ h1 {
    23px 0 20px -23px rgba(0, 0, 0, .6),
    0 0 20px rgba(0, 0, 0, .2) ;
 }
-.lastpost p {
+.news {
+     padding: 10px;
+    border: 1px solid #e9e5e5;
+    border-bottom: 0;
+}
+.news:hover {
+     box-shadow: 0 1px 3px rgba(0, 0, 0, .4),
+   -23px 0 20px -23px rgba(0, 0, 0, .6),
+   23px 0 20px -23px rgba(0, 0, 0, .6),
+   0 0 20px rgba(0, 0, 0, .2) ;
+}
+.news:last-child{
+    border-bottom: 1px solid #e9e5e5;
+}
+.lastpost p, .news p {
     font-size: 0.7em;
     color: darkgray;
     padding: 10px;
     text-align: left;
 }
-
+.news p {
+    
+    padding: 5px;
+    
+}
 .left-collumn h2 {
     font-size: 1.5em;
     font-weight: bold;

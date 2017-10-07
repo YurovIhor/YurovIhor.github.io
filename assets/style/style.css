@@ -293,8 +293,12 @@ h1 {
     background-color: rgba(249, 195, 51, 0.9);
 }
 .dropdown li {
-     width: 300px; 
+     width: 120px; 
     border-bottom: 1px solid #e9e5e5;
+}
+.dropright li {
+    width: 200px;
+    font-weight: normal; 
 }
 
 .dropdown a{
@@ -302,6 +306,9 @@ h1 {
     font-size: 14px;
     padding: 5px 10px;
     height: auto;
+}
+.dropright a {
+    font-size: 12px;
 }
 .rect {
     fill: #d62e2e;

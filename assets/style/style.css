@@ -574,13 +574,11 @@ footer h1 {
     .email {
     margin-left: 20px;
 }
-    .dropdown li {
-     width: 200px; 
-}
+
 .dropdown a{
     font-size: 13px;
 }
-    
+   
 .train {
     display: none;
 }
@@ -594,9 +592,7 @@ footer h1 {
     font-size: 13px;
 }
     
-    .dropdown li {
-     width: 180px; 
-}
+    
 .dropdown a{
     font-size: 12px;
 }

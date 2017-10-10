@@ -167,39 +167,41 @@ header {
     width: 100%;
     position: relative;
     overflow: hidden;
+    background: url(railway.png) no-repeat bottom ;
+    background: linear-gradient(to top, #fff 50%, #abe0f9);
+    height: 200px;
 }
 .l-wrap {
     position: relative;
+    z-index: 10;
 }
 .l-wrap:hover {
     position: relative;
     top: 5px;
     left: 5px;
 }
+
 .train {
-    width: 75%;
-    position: relative;
-    
-}
-.train img {
     animation: slidein 15s forwards 3s;
-   max-width: 350px;
-   position: relative;
-    bottom: 0;
-    left: 60%;
+   width: 300px;
+   position: absolute;
+    bottom: 2px;
+    right: 20px;
+    z-index: 2;
+   
 }
 @keyframes slidein {
-    from {
-        bottom:0;
-        left: 68%;
-        
-    }
     to {
-        bottom: 0;
-        left: 50px;
+        transform: translateX(-1000px);
     }
 }
-
+.railway {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    width: 2000px;
+}
  .connect-block {
    padding: 20px;    
 }
@@ -535,7 +537,72 @@ footer h1 {
     min-width:  200px;
 }
 
-
+.grass {
+    position: absolute;
+    width: 68px;
+    bottom: 0;
+    z-index: 3;
+}
+.grass1 {
+    right: 120px;
+    bottom: -10px;
+}
+.grass2 {
+    right: 500px;
+    bottom: -20px;
+}
+.grass3 {
+    right: 1000px;
+    bottom: -10px;
+    width: 45px;
+}
+.grass4 {
+    right: 110px;
+    bottom: -5px;
+    width: 40px;
+}
+.cloud {
+   position: absolute;
+    width: 150px;
+    top: 0; 
+    z-index: 1;
+}
+.cloud1 {
+    left: 600px;
+    animation: cloud1 forwards 70s linear;
+}
+.cloud4 {
+    left: -150px;
+    animation: cloud1 infinite 70s linear;
+}
+.cloud2 {
+    left: 1000px;
+    animation: cloud1 forwards 60s linear;
+}
+.cloud3 {
+    left: 200px;
+    animation: cloud1 forwards 60s linear;
+}
+.cloud6{
+    left: -600px;
+    animation: cloud2 infinite 110s linear;
+}
+.cloud5{
+    left: -800px;
+    animation: cloud2 infinite 130s linear;
+}
+@keyframes cloud1 {
+    
+    to {
+       transform: translateX(1500px);
+    }
+}
+@keyframes cloud2 {
+    
+    to {
+       transform: translateX(2100px);
+    }
+}
 @media screen and (max-width: 950px) {
     
 .left-collumn {
@@ -602,4 +669,5 @@ footer h1 {
 
 
  
+
 

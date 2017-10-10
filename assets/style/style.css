@@ -169,7 +169,7 @@ header {
     overflow: hidden;
     background: url(railway.png) no-repeat bottom ;
     background: linear-gradient(to top, #fff 50%, #abe0f9);
-    height: 200px;
+    height: 190px;
 }
 .l-wrap {
     position: relative;

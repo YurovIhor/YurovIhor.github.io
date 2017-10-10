@@ -208,6 +208,7 @@ header {
 .right-collumn {
     padding: 20px 30px 20px 15px; 
     width:  25%;
+    background-color: #e5f7ff;
 }
 .left-collumn {
      padding: 20px 15px 20px 30px; 
@@ -215,6 +216,7 @@ header {
     line-height: 1.5;
     text-align: justify;
     width: 75%;
+    
 }
 .right-collumn h4 {
     font-size: 0.8em;
@@ -363,7 +365,7 @@ h1 {
     
     padding: 15px;
     margin-bottom: 10px;
-    
+    background-color:#fff;
      box-shadow: 0 1px 3px rgba(0, 0, 0, .2),
    -23px 0 20px -23px rgba(0, 0, 0, .4),
    23px 0 20px -23px rgba(0, 0, 0, .4),
@@ -380,6 +382,7 @@ h1 {
      padding: 10px;
     border: 1px solid #e9e5e5;
     border-bottom: 0;
+    background-color: #fff;
 }
 .news:hover {
      box-shadow: 0 1px 3px rgba(0, 0, 0, .4),

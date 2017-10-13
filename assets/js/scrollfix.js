@@ -2,8 +2,8 @@ $(window).scroll(function() {
 	/*----------------------------------
 	sticky block script by makeasite.ru
 	----------------------------------*/
-	var sb_m = 20; /* отступ сверху и снизу */
-	var mb = 150; /* высота подвала с запасом */
+	var sb_m = 10; /* отступ сверху и снизу */
+	var mb = 10; /* высота подвала с запасом */
 	var st = $(window).scrollTop();
 	var sb = $(".sticky-block");
 	var sbi = $(".sticky-block .inner");

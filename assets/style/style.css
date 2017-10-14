@@ -128,7 +128,7 @@ footer {
     color: #fff;
     font-size: 0.6em;
     padding: 15px 30px;
-    display: none;
+   
 }
 .smile {
     position: relative;
@@ -385,7 +385,14 @@ h1 {
 .socicon a:hover .social-you{
     fill: #cd201f;
 }
-
+.sticky {
+  position: fixed;
+  z-index: 101;
+}
+.stop {
+  position: relative;
+  z-index: 101;
+}
 .right-collumn h3 {
     font-size: 1em;
     font-weight: bold;

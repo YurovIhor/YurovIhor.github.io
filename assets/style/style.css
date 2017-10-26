@@ -157,12 +157,13 @@ header {
     width: 100%;
     position: relative;
     padding: 0;
-    border-bottom: 5px solid #fe9a00;
+   border-bottom: 5px solid #fe9a00;
 }
 .wrap {
     background-color: #f9c333;
     padding: 0 30px;
     height: 20px;
+     
 }
 .wrap_middle {
      padding: 10px 30px;
@@ -186,6 +187,9 @@ header {
 .logotype {
     margin-right: 15px;
     margin-top: 5px;
+}
+.small {
+    display: none;
 }
 .rect {
     fill: #d62e2e;
@@ -343,6 +347,7 @@ h1 {
     border-bottom: none;
     margin-top: -1px;
 }
+
 .menu li:hover .tr {
     background-color: rgba(249, 195, 51, 0.9);
 }
@@ -367,12 +372,16 @@ h1 {
 .socicon {
     padding: 0;
 }
+
 .social {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     fill: #534f41;
 }
-
+.right-collumn .social {
+    width: 30px;
+    height: 30px;
+}
 .socicon a:hover .social-fb, .img-svg .social-fb, .sifoot .social-fb{
     fill: #3b5998;
 }
@@ -408,6 +417,10 @@ h1 {
     width: 100%;
     margin: 0;
     position: relative;
+}
+aside {
+    padding-bottom: 100px;
+    width: 100%;
 }
 .coll .copyright {
     margin-top: 10px;
@@ -509,7 +522,7 @@ h1 {
     border-bottom: 1px solid gray;
 }
 .left-collumn img {
-    margin: 30px 0;
+    margin: 15px 0;
 }
 .data {
     font-size: 0.55em;
@@ -588,16 +601,18 @@ footer h1 {
     margin-left: 100px;
     padding-top: 3px;
 }
-
+.right-collumn .socicon {
+   text-align: center;
+}
 @media screen and (max-width: 950px) {
     
-    footer {
-        display: flex;
-    }
     .left-collumn {
         width: 100%;
         padding-right: 30px;
     }
+    .left-collumn p {
+    padding: 0;
+}
     .right-collumn {
         width: 100%;
         display: flex;
@@ -611,40 +626,93 @@ footer h1 {
         padding-left: 30px;
     }   
     .coll {
-        max-width: 300px;
+        width: 300px;
         margin-right: 5px;
-    }   
+    }  
     
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 690px) {
+    .left-collumn, .right-collumn {
+        padding: 20px 5px;
+    }
+    .menu a {
+        font-size: 14px;
+        padding: 1px 10px;
+    }
     .left-collumn {
         font-size: 0.9em;
     }
+    .coll {
+        width:100%;
+        margin-right: 0;
+    } 
 }
 @media screen and (max-width: 400px) {
-    .menu a{
-        font-size: 14px;
+    .tr svg  {
+        display: none;
     }
+    .socicon {
+        padding: 5px;
+    }
+    .wrap {
+        height: auto;
+        padding: 0;
+    }
+    .wrap_middle {
+        padding: 5px;
+        height: auto;
+    }
+    nav {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+     .menu li {
+    display: block;
+    border: none; 
+}
+    .menu .c:hover .h{
+    height: 105px; 
+}
+    .logotype {
+        display: none;
+    } 
+    .small {
+        display:flex;
+    }
+    .h {
+        border: none;
+    }
+    .dropdown {
+        background-color: inherit;
+        border: none;
+    }
+   .menu li:hover .dropdown{
+    border: none; 
+} 
+    .dropdown li:hover .dropright {
+    display: none;
+}
     .email {
         margin-left: 20px;
     }
     .dropdown a{
-        font-size: 13px;
+        font-size: 10px;
     }
-    .train {
+    .train, .railway, .grass {
         display: none;
     }
     h1 {
         font-size: 2.5em;
     }
-}   
-@media screen and (max-width: 330px) {
     .menu a{
-        font-size: 13px;
+        font-size: 14px;
     }
     .dropdown a{
-        font-size: 12px;
+        font-size: 13px;
     }  
+}   
+@media screen and (max-width: 330px) {
+    
 }
 
 .scrollup{

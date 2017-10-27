@@ -665,7 +665,7 @@ footer h1 {
     transition: 1s all;
 }
     .dropdown {
-        left: -25px;
+        left: -35px;
     }
     .dropdown li:first-child{
         display: none;

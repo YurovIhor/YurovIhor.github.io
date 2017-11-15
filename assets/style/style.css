@@ -116,7 +116,7 @@ header, footer, .connect-block {
 .right-collumn {
     padding: 20px 30px 20px 15px; 
     width:  25%;
-    background-color: #e5f7ff;
+    background-color: rgba(249, 195, 51, 0.14);
 }
 .left-collumn {
      padding: 20px 15px 20px 30px; 
@@ -412,7 +412,7 @@ h1 {
 }
 .right-collumn h4 {
     font-size: 0.8em;
-    color: darkslategray;
+    color: #534f41;
     padding: 5px 10px;
     text-align: justify;
 }
@@ -528,8 +528,8 @@ aside {
     margin: 15px 0;
 }
 .data {
-    font-size: 0.55em;
-    color: gray;
+    font-size: 14px;
+    color: darkgray;
      font-weight: normal;
 }
 .left-collumn p {
@@ -553,6 +553,7 @@ aside {
 }
 .post h5 {
     font-weight: bold;
+    height: 40px;
 }
 .post p {
     padding: 0;
@@ -560,11 +561,12 @@ aside {
 .post img {
     margin: 15px 0;
 }
-.click {
-    color: #b5b1b1;
-    text-shadow:  1px 1px ;
+.post a, .post-main a {
+    color: darkgray;
+    font-weight: 600;
+    
 }
-.click:hover{
+.post a:hover{
     color: #fe9a00;
 }
 .sifoot {

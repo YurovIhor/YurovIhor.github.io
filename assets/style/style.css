@@ -316,6 +316,8 @@ h1 {
     transition: 1s all;
     height: 20px;
 }
+.active {
+    background-color: #fe9a00;}
 .menu a:hover {
     color: #fff;
 }

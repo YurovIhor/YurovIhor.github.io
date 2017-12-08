@@ -537,6 +537,9 @@ aside {
 .left-collumn p {
     padding: 15px;
 }
+.post-main {
+    margin-bottom: 30px;
+}
 .post_container{
     justify-content: space-around;
     -webkit-justify-content: space-around;
